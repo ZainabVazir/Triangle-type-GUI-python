@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
 
         self.side_a = QLineEdit(self)
         self.side_a.setPlaceholderText("Enter the value of side a:")
-        self.side_a.setGeometry(0, 100, 300, 50)
+        self.side_a.setGeometry(0, 150, 300, 50)
         self.side_a.setStyleSheet("color: #060606;"
                                  "background-color: #988ABA;"
                                  "font-size: 20px;"
@@ -33,7 +33,7 @@ class MainWindow(QMainWindow):
   
         self.side_b = QLineEdit(self)
         self.side_b.setPlaceholderText("Enter the value of side b:")
-        self.side_b.setGeometry(0, 160, 300, 50)
+        self.side_b.setGeometry(0, 210, 300, 50)
         self.side_b.setStyleSheet("color: #060606;"
                                  "background-color: #988ABA;"
                                  "font-size: 20px;"
@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
         
         self.side_c = QLineEdit(self)
         self.side_c.setPlaceholderText("Enter the value of side c:")
-        self.side_c.setGeometry(0, 220, 300, 50)
+        self.side_c.setGeometry(0, 270, 300, 50)
         self.side_c.setStyleSheet("color: #060606;"
                                  "background-color: #988ABA;"
                                  "font-size: 20px;"
@@ -61,7 +61,7 @@ class MainWindow(QMainWindow):
                                   "background-color: #655D78;"
                                   "font-size:20px;"
                                   "font-family: Sans Serif;"
-                                  "border-radius: 10px;")
+                                  "border-radius: 2px;")
         
         self.label_x = QLabel("Please enter the values before submitting☺️", self)
         self.label_x.setGeometry(50, 490, 500, 40)
@@ -96,3 +96,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
